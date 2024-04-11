@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example page</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+
+        #fixedTitle {
+            color: red;
+            font-size: 24px;
+        }
+
+        #imageContainer {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        img {
+            max-width: 30%;
+            height: auto;
+            margin: 0 10px;
+        }
+
+        hr {
+            margin: 20px;
+        }
+
+        form {
+            margin: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="movingTitle">Example page</h1>
+
+
+    <div id="imageContainer">
+        <img src="Img_01.jpg" alt="Image 1">
+    </div>
+
+    <br>
+
+    <a href="https://rateyourmusic.com" target="_blank">Favorite Website</a>
+
+    <hr>
+
+    <form action="params_info.html" method="post">
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+    
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to newsletter</label><br>
+    
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
