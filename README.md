@@ -14,24 +14,30 @@ This server is designed as a multithreaded TCP server, capable of handling HTTP 
 
 ## Running the Server
 
-To run the server, follow these steps:
+To run the server on a Linux machine, follow these steps:
 
 1. Ensure you have Java Development Kit (JDK) installed on your system.
 2. Clone this repository to your local machine.
 3. Navigate to the root directory of the cloned repository.
-4. Run the compile.sh script to compile the Java source files:
+4. Make the compile.sh and run.sh scripts executable by running the following commands:
+
+    ```bash
+    $ chmod +x ./compile.sh ./run.sh
+    ```
+
+5. Run the compile.sh script to compile the Java source files:
 
     ```bash
     $ ./compile.sh
     ```
 
-5. Once the compilation is successful, run the run.sh script to start the server:
+6. Once the compilation is successful, run the run.sh script to start the server:
 
     ```bash
     $ ./run.sh
     ```
 
-6. The server will start listening for incoming connections on the specified port.
+7. The server will start listening for incoming connections on the specified port.
 
 ## Design Philosophy
 
